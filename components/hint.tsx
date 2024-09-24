@@ -10,7 +10,7 @@ export interface HintProps {
   children: React.ReactNode;
   side?: "top" | "bottom" | "left" | "right";
   align?: "start" | "center" | "end";
-  sideOffset?: "number";
+  sideOffset?: number;
   alignOffset?: number;
 }
 
